@@ -1,10 +1,10 @@
 import React, { ButtonHTMLAttributes, MouseEventHandler } from 'react'
 import styled from '@emotion/styled'
-import { variant, padding, typography, border } from 'styled-system'
+import { variant, padding, typography, border, PaddingProps, TypographyProps, BorderProps } from 'styled-system'
 import shouldForwardProp from '@styled-system/should-forward-prop'
 
 
-export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement>{
+export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement>, PaddingProps, TypographyProps, BorderProps {
   label: string;
   onClick?: MouseEventHandler;
   variant?: 'primary' | 'secondary' | 'danger'
