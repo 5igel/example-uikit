@@ -11,7 +11,7 @@ export const Reset:FC = ({children}) => (
       -moz-osx-font-smoothing: grayscale;
       -webkit-font-smoothing: antialiased;
       font-smoothing: antialiased;
-      font-family: Open Sans;
+      font-family: Open Sans !important;
       font-style: normal;
       font-weight: normal;
       font-size: 16px;
