@@ -3146,6 +3146,13 @@
   resolved "https://registry.yarnpkg.com/@types/stack-utils/-/stack-utils-2.0.0.tgz#7036640b4e21cc2f259ae826ce843d277dad8cff"
   integrity sha512-RJJrrySY7A8havqpGObOB4W92QXKJo63/jFLLgpvOtsGUqbQZ9Sbgl35KMm1DjC6j7AvmmU2bIno+3IyEaemaw==
 
+"@types/styled-system@^5.1.10":
+  version "5.1.10"
+  resolved "https://registry.yarnpkg.com/@types/styled-system/-/styled-system-5.1.10.tgz#dcf5690dd837ca49b8de1f23cb99d510c7f4ecb3"
+  integrity sha512-OmVjC9OzyUckAgdavJBc+t5oCJrNXTlzWl9vo2x47leqpX1REq2qJC49SEtzbu1OnWSzcD68Uq3Aj8TeX+Kvtg==
+  dependencies:
+    csstype "^3.0.2"
+
 "@types/tapable@*", "@types/tapable@^1.0.5":
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/@types/tapable/-/tapable-1.0.6.tgz#a9ca4b70a18b270ccb2bc0aaafefd1d486b7ea74"
@@ -6396,6 +6403,11 @@ emotion-theming@^10.0.19:
     "@babel/runtime" "^7.5.5"
     "@emotion/weak-memoize" "0.2.5"
     hoist-non-react-statics "^3.3.0"
+
+emotion-theming@^11.0.0:
+  version "11.0.0"
+  resolved "https://registry.yarnpkg.com/emotion-theming/-/emotion-theming-11.0.0.tgz#821de3c9804cfe7bb5fda2dd12ad722a6c5bcff5"
+  integrity sha512-OhYpCGBjaLcD9c4ptwCr9SxHjfRTDqeqdzMobusJ+a/drlfnJ3AT9gmGKIhNHiXtr6626h6fsvLY22Or9CxUqw==
 
 encodeurl@~1.0.2:
   version "1.0.2"

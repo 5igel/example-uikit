@@ -1,6 +1,6 @@
 import React from 'react';
-import {ThemeProvider} from '../src/stories/ThemeProvider';
-export const decorators = [(Story) => <ThemeProvider><Story/></ThemeProvider>];
+import {WithTheme} from '../src/stories/WithTheme';
+export const decorators = [(Story) => <WithTheme><Story/></WithTheme>];
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
