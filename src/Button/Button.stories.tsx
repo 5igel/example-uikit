@@ -14,6 +14,11 @@ export default {
 
 const Template: Story<ButtonProps> = (args) => <Button {...args} />;
 
+export const DefaultButton = Template.bind({});
+DefaultButton.args = {
+  label: 'Default Button',
+};
+
 export const Primary = Template.bind({});
 Primary.args = {
   label: 'Primary Button',

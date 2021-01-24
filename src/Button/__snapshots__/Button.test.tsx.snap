@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders button 1`] = `
+<button
+  class="css-1iwkoki"
+  type="button"
+>
+  snapshot
+</button>
+`;
+
+exports[`renders button with html attributes 1`] = `
+<button
+  class="css-1iwkoki"
+  data-custom="custom"
+  type="submit"
+>
+  snapshot
+</button>
+`;

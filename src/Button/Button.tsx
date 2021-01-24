@@ -1,6 +1,7 @@
 import React, { ButtonHTMLAttributes, MouseEventHandler } from 'react'
 import styled from '@emotion/styled'
 import { variant, padding, typography, border } from 'styled-system'
+import shouldForwardProp from '@styled-system/should-forward-prop'
 
 
 export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement>{
@@ -23,7 +24,9 @@ const BaseButton: React.FC<ButtonProps> = ({
   );
 };
 
-export const Button = styled(BaseButton)(
+export const Button = styled(BaseButton, {
+  shouldForwardProp,
+})(
   {
     appearance: 'none',
     display: 'flex',
@@ -52,6 +55,7 @@ export const Button = styled(BaseButton)(
 )
 
 Button.defaultProps = {
+  variant: 'primary',
   py: 2,
   px: 4,
   border: 0,
