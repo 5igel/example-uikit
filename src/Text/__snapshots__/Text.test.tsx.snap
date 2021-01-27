@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders text h1 1`] = `
+<span
+  class="css-1puunqr"
+>
+  Heading 1
+</span>
+`;
+
+exports[`renders text h2 1`] = `
+<span
+  class="css-18csn3"
+>
+  Heading 2
+</span>
+`;
+
+exports[`renders text h3 1`] = `
+<span
+  class="css-1r2j1hy"
+>
+  Heading 3
+</span>
+`;
+
+exports[`renders text h4 1`] = `
+<span
+  class="css-tpgt8l"
+>
+  Heading 4
+</span>
+`;
+
+exports[`renders text h5 1`] = `
+<span
+  class="css-i125p7"
+>
+  Heading 5
+</span>
+`;
+
+exports[`renders text h6 1`] = `
+<span
+  class="css-7dkg9j"
+>
+  Heading 6
+</span>
+`;
